@@ -2,3 +2,5 @@ transformers
 langchain
 langchain-huggingface
 fastapi[standard]
+accelerate
+pytest

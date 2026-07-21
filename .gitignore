@@ -3,6 +3,9 @@
 # dependencies
 /node_modules
 /server/.venv
+
+# scraped data (regenerate via server/services/scraper.py)
+/server/data
 /.pnp
 .pnp.*
 .yarn/*
@@ -24,6 +27,10 @@
 # misc
 .DS_Store
 *.pem
+
+# python
+__pycache__/
+*.pyc
 
 # debug
 npm-debug.log*

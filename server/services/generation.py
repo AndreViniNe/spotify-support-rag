@@ -4,7 +4,6 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 
 device = Accelerator().device
 
-
 def load_llm(model_id: str = "HuggingFaceTB/SmolLM2-360M-Instruct") -> HuggingFacePipeline:
     tokenizer = AutoTokenizer.from_pretrained(model_id)
     model = AutoModelForCausalLM.from_pretrained(model_id, device_map="auto")

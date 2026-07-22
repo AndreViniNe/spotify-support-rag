@@ -1,7 +1,11 @@
 transformers
 langchain
 langchain-huggingface
+sentence-transformers
 fastapi[standard]
 accelerate
 httpx
 pytest
+chromadb
+langchain-chroma>=0.1.2
+langchain-text-splitters
